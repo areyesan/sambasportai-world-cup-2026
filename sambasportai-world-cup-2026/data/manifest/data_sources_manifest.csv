@@ -1,0 +1,7 @@
+dataset,path,rows,role,source,bundled,license_note
+v8_match_predictions.csv,data/baseline/v8_match_predictions.csv,72,Frozen pre-tournament match probabilities and expected goals,Upstream SambaSportAI v8 artifact,yes,Project-generated derived artifact; underlying third-party data retains original terms
+v8_group_advancement.csv,data/baseline/v8_group_advancement.csv,48,Frozen pre-tournament group advancement probabilities,Upstream SambaSportAI v8 artifact,yes,Project-generated derived artifact
+v8_final26_team_ratings.csv,data/baseline/v8_final26_team_ratings.csv,48,Roster-aware team rating priors used to initialize tournament Elo,Upstream SambaSportAI v8 artifact,yes,Team-level derived features; no proprietary player-level feed is bundled
+world_cup_2026_group_stage_results.csv,data/raw/world_cup_2026_group_stage_results.csv,72,Actual group-stage scores for evaluation and tournament update,Public FIFA-sourced tournament result table; source URL is stored per row,yes,Verify source terms before redistribution outside research/demo use
+round_of_32_fixtures.csv,data/raw/round_of_32_fixtures.csv,16,Knockout fixtures scored by the tournament-updated model,Project fixture table,yes,Fixture facts
+group_stage_training_features.csv,data/processed/group_stage_training_features.csv,72,Leakage-controlled features for the 72-match tournament update,Generated from bundled baseline predictions and group-stage results,yes,Project-generated derived artifact

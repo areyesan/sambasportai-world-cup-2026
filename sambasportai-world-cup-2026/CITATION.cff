@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the project."
+title: "SambaSportAI FIFA World Cup 2026 Forecasting"
+type: software
+version: "0.9.0"
+date-released: "2026-07-11"
+authors:
+  - family-names: "Reyes-Angulo"
+    given-names: "Abel A."
+repository-code: "https://github.com/areyesan/sambasportai-world-cup-2026"
+license: "Proprietary"

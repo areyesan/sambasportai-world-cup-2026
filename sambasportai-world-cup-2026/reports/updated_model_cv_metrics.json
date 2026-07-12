@@ -1,0 +1,11 @@
+{
+  "group_held_out_folds": 6,
+  "group_held_out_log_loss": 0.9399682310107151,
+  "group_held_out_accuracy": 0.4722222222222222,
+  "group_held_out_goal_mae": 1.0195504345044328,
+  "outcome_C": 0.2,
+  "goal_ridge_alpha": 3.0,
+  "home_goal_scale": 1.2279072647882483,
+  "away_goal_scale": 1.198820735078902,
+  "note": "Group-held-out validation; final models are fitted on all 72 group-stage matches."
+}

@@ -1,0 +1,24 @@
+{
+  "project_version": "v9",
+  "evaluation_cutoff": "2026-06-27",
+  "classes": [
+    "home_win",
+    "draw",
+    "away_win"
+  ],
+  "host_teams": [
+    "Canada",
+    "Mexico",
+    "United States"
+  ],
+  "host_elo_bonus": 45.0,
+  "elo_k_factor": 32.0,
+  "outcome_logistic_C": 0.2,
+  "goal_ridge_alpha": 3.0,
+  "cross_validation_folds": 6,
+  "outcome_poisson_blend": {
+    "multinomial_model": 0.72,
+    "poisson_outcomes": 0.28
+  },
+  "prediction_cutoff_note": "Round-of-32 predictions use group-stage information only."
+}
